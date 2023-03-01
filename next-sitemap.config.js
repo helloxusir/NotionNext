@@ -1,7 +1,6 @@
 const BLOG = require('./blog.config')
 
 module.exports = { 
-  head:[['meta',{ name:'baidu-site-verification', content:'codeva-9k2YSknpKB'}]],
   siteUrl: BLOG.LINK,
   changefreq: 'daily',
   priority: 0.7,
