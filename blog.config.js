@@ -7,13 +7,13 @@ const BLOG = {
   THEME: process.env.NEXT_PUBLIC_THEME || 'next', // 主题， 支持 ['next','hexo',"fukasawa','medium','example'] @see https://preview.tangly1024.com
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // 是否显示切换主题按钮
   LANG: 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
-  SINCE: 2021, // e.g if leave this empty, current year will be used.
+  SINCE: 2023, // e.g if leave this empty, current year will be used.
   APPEARANCE: 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
 
   AUTHOR: 'Helloxusir', // 您的昵称 例如 tangly1024
   BIO: '鸢飞鱼跃', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.yizhuchi.com', // 网站地址
-  KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
+  KEYWORDS: 'ChatGPT, 博客', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: 'helloxusir@gmail.com', // 邮箱地址 例如mail@tangly1024.com
   CONTACT_WEIBO: '', // 你的微博个人主页
