@@ -14,7 +14,6 @@ class MyDocument extends Document {
       <Html lang={BLOG.LANG} className='test'>
         <Head>
           <link rel='icon' href='/favicon.ico' />
-  
           <meta name="baidu-site-verification" content="codeva-9k2YSknpKB" />
           <CommonScript />
         </Head>
